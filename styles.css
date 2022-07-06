@@ -1,1 +1,22 @@
+table{
+     border-collapse: collapse; 
+    border: 8px solid black;
+}
 
+
+td, th {
+border: 3px solid #000000;
+text-align: center;
+padding: 8px;
+}
+
+
+form{
+    text-align: center; 
+   color: black;
+   padding: 20px;
+     }
+     input {
+       background-color:rgb(252, 251, 251);
+     }
+ 
