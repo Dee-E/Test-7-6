@@ -1,7 +1,8 @@
 .container{
     background-color: yellow;
-    color: black !important;
+    color: black;
 }
+
 
 table{
      border-collapse: collapse; 
@@ -21,7 +22,49 @@ form{
    color: black;
    padding: 20px;
      }
+
+
      input {
-       background-color:rgb(252, 251, 251);
+       background-color:rgb(249, 247, 247);
+
      }
- 
+
+
+.grid-container{
+display: grid;
+grid-template: auto;
+align-content: center;
+justify-content: start;
+gap: 25px;
+background-color: deepskyblue;
+
+}
+
+.square{
+  text-align: center;
+  margin: 40px;
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+}
+
+#s1{
+  grid-column: 1 / 2;
+}
+
+
+#s2{
+  grid-column: 2 / 3;
+}
+
+
+#s3{
+  grid-column: 3 / 4;
+}
+
+
+
+ #submit{
+  background-color:blue;
+  color: white;
+ }
